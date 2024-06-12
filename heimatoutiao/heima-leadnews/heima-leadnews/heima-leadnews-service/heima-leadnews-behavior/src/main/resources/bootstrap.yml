@@ -1,0 +1,12 @@
+server:
+  port: 9979
+spring:
+  application:
+    name: leadnews-behavior
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.197.1:8848
+      config:
+        server-addr: 192.168.197.1:8848
+        file-extension: yml

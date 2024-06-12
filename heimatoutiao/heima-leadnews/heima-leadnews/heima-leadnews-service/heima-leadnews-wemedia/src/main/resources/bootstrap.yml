@@ -1,0 +1,12 @@
+server:
+  port: 9973
+spring:
+  application:
+    name: leadnews-wemedia
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.197.1:8848
+      config:
+        server-addr: 192.168.197.1:8848
+        file-extension: yml
